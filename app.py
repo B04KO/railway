@@ -8,11 +8,11 @@ app = FastAPI()
 # Подключение к базе данных
 def get_connection():
     return mysql.connector.connect(
-        host="autorack.proxy.rlwy.net",
+        host="junction.proxy.rlwy.net",
         user="root",
-        password="iEEjTTJTbcVSVFnPNOzTzqYSDFBpmHIc",
+        password="aMtDZhaZeuBWVLjDSormcYrDsgmJuaEy",
         database="HTP_1",
-        port="48476"
+        port="25232"
     )
 
 # Модель запроса на логин
